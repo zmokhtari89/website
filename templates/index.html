@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="columns is-vcentered">
+      <div class="column is-two-thirds">
+        <div class="content">
+          {{ section.content | safe }}
+        </div>
+      </div>
+      <div class="column is-one-third has-text-centered">
+        {% if config.extra.author.avatar %}
+        <figure class="image is-flex is-justify-content-center is-align-items-center">
+          <img class="is-rounded" src="{{ config.extra.author.avatar }}" style="max-width: 192px" />
+        </figure>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

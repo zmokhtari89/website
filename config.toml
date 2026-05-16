@@ -1,0 +1,71 @@
+# The URL the site will be built for
+base_url = "https://zmokhtari89.github.io/website"
+title = "Zahra Mokhtari"
+description = "A short tagline about you."
+theme = "DeepThought"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+katex.enabled = true
+katex.auto_render = true
+
+chart.enabled = true
+mermaid.enabled = true
+galleria.enabled = true
+
+navbar_items = [
+    { code = "en", nav_items = [
+        { url = "$BASE_URL/", name = "About" },
+        { url = "$BASE_URL/cv", name = "CV" },
+        { url = "$BASE_URL/projects", name = "Projects" },
+        { url = "$BASE_URL/presentations", name = "Presentations" },
+    ] },
+]
+
+[extra.favicon]
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+safari_pinned_tab = "/icons/safari-pinned-tab.svg"
+webmanifest = "/icons/site.webmanifest"
+
+[extra.author]
+name = "Zahra Mokhtari"
+avatar = "images/me.jpg"
+
+[extra.social]
+facebook = "RatanShreshtha"
+github = "RatanShreshtha"
+gitlab = "ratanshreshtha"
+keybase = "RatanShreshtha"
+linkedin = "ratanshreshtha"
+stackoverflow = "3728911"
+email = "deepthought@gmail.com"
+twitter = "RatanShreshtha"
+reddit = "RatanShreshtha"
+instagram = "RatanShreshtha"
+mastodon_username = "@RatanShreshtha"
+mastodon_server = "mastodon.social"
+discord = "RatanShreshtha"
+behance = "RatanShreshtha"
+youtube = "RatanShreshtha"
+tumblr = "RatanShreshtha"
+twitch = "RatanShreshtha"
+dev = "RatanShreshtha"
+bitbucket = "RatanShreshtha"
+medium = "RatanShreshtha"
+soundcloud = "RatanShreshtha"
+googleplay = "RatanShreshtha"
+orcid = "RatanShreshtha"
+google_scholar = "RatanShreshtha"
+
