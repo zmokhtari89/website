@@ -13,7 +13,14 @@
             {% if page.extra.thumbnail %}
             <div class="card-image">
               <figure class="image is-4by3">
+                {% set ext = page.extra.thumbnail | split(pat=".") | last | lower %}
+                {% if ext == "mp4" or ext == "webm" or ext == "mov" %}
+                <video autoplay loop muted playsinline style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+                  <source src="{{ page.permalink | safe }}{{ page.extra.thumbnail }}" type="video/{{ ext }}">
+                </video>
+                {% else %}
                 <img src="{{ page.permalink | safe }}{{ page.extra.thumbnail }}" alt="{{ page.title }}" />
+                {% endif %}
               </figure>
             </div>
             {% endif %}

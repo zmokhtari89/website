@@ -5,7 +5,7 @@ date = 2026-05-04
 weight = 4
 
 [extra]
-thumbnail = "thumb.png"
+thumbnail = "demo-web.mp4"
 tags = ["C++", "Python", "scikit-image", "Agent-Based Modeling", "PDEs", "Active Matter", "Statistical Physics"]
 +++
 
@@ -31,10 +31,7 @@ The system organises into distinct stationary patterns depending on how long sig
 - **Long-lived signals** → narrow longitudinal trails aligned with motion direction.
 
 ![Snapshot of agent positions and pheromone field](phase_diagram.png)
-
-<video controls width="100%">
-  <source src="demo-web.mp4" type="video/mp4">
-</video>
+![Trail detection](image_processing.png)
 
 ## Continuum Extension
 
