@@ -5,7 +5,7 @@ date = 2026-05-04
 weight = 2
 
 [extra]
-thumbnail = "/projects/project-two/thumb.jpg"
+thumbnail = "thumb.jpg"
 tags = ["C++", "Python", "Statistical Physics", "Molecular Dynamics", "Active Matter"]
 +++
 
@@ -23,10 +23,10 @@ Stiffness, activity (Péclet number), and chain length were varied systematicall
 
 A sharp transition emerges as chains become more flexible: stiff chains glide through the medium almost unhindered, while flexible ones spiral around obstacles and get trapped. The waiting-time distribution develops heavy tails, taking transport from diffusive to subdiffusive and eventually fully caged.
 
-![Phase behavior with stiffness](/projects/project-two/phase_diagram.png)
+![Phase behavior with stiffness](phase_diagram.png)
 
 <video controls width="100%">
-  <source src="/projects/project-two/demo-web.mp4" type="video/mp4">
+  <source src="demo-web.mp4" type="video/mp4">
 </video>
 
 ## Publication

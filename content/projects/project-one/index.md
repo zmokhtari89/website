@@ -5,7 +5,7 @@ date = 2026-05-04
 weight = 4
 
 [extra]
-thumbnail = "/projects/project-one/thumb.png"
+thumbnail = "thumb.png"
 tags = ["C++", "Python", "scikit-image", "Agent-Based Modeling", "PDEs", "Active Matter", "Statistical Physics"]
 +++
 
@@ -30,17 +30,17 @@ The system organises into distinct stationary patterns depending on how long sig
 - **Short-lived signals** → transverse bands of moving agents (Vicsek-like behaviour).
 - **Long-lived signals** → narrow longitudinal trails aligned with motion direction.
 
-![Snapshot of agent positions and pheromone field](/projects/project-one/phase_diagram.png)
+![Snapshot of agent positions and pheromone field](phase_diagram.png)
 
 <video controls width="100%">
-  <source src="/projects/project-one/demo-web.mp4" type="video/mp4">
+  <source src="demo-web.mp4" type="video/mp4">
 </video>
 
 ## Continuum Extension
 
 To understand *why* these phases appear, we derived a hydrodynamic limit (a system of PDEs for agent density and pheromone concentration) using a mean-field approximation. Linear stability analysis of the homogeneous state recovers the phase boundaries seen in simulation, confirming that time-delayed feedback is what stabilises the trails.
 
-![Agent-based simulation vs. PDE solution](/projects/project-one/comparison.png)
+![Agent-based simulation vs. PDE solution](comparison.png)
 
 ## Publication
 

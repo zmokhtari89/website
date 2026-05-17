@@ -13,7 +13,7 @@
             {% if page.extra.thumbnail %}
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="{{ page.extra.thumbnail }}" alt="{{ page.title }}" />
+                <img src="{{ page.permalink | safe }}{{ page.extra.thumbnail }}" alt="{{ page.title }}" />
               </figure>
             </div>
             {% endif %}

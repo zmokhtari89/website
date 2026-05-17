@@ -5,7 +5,7 @@ date = 2026-05-04
 weight = 2
 
 [extra]
-thumbnail = "/projects/project-three/thumb.png"
+thumbnail = "thumb.png"
 tags = ["Unsupervised Learning", "Tensorflow", "Docker", "Streamlit", "GCP", "FastAPI"]
 +++
 
@@ -23,7 +23,7 @@ The app is preserved as a demo of what we built: [kmeansklang.streamlit.app](htt
 
 > Note: the backend ran on GCP during the bootcamp. The frontend still loads and shows the interface, but full clustering won't run since we've sunset the cloud resources. See the screenshots below, or run it locally from the repo.
 
-![Streamlit app](/projects/project-three/screenshot.png)
+![Streamlit app](screenshot.png)
 
 ## Code
 

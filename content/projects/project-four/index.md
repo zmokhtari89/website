@@ -5,7 +5,7 @@ date = 2026-05-04
 weight = 1
 
 [extra]
-thumbnail = "/projects/project-four/thumb.png"
+thumbnail = "thumb.png"
 tags = ["PyTorch", "Computer Vision", "Semantic Segmentation", "Transfer Learning"]
 +++
 
@@ -23,7 +23,7 @@ I trained four models: U-Net and U-Net++ (both with a ResNet34 encoder pretraine
 
 The best model, **U-Net++ V1**, reached **IoU 0.82** and **Dice 0.90** on validation. Recall was prioritised over precision: in solar planning, missed roofs are missed installations, while false positives are filtered downstream.
 
-![Predictions](/projects/project-four/predictions.png)
+![Predictions](predictions.png)
 
 ## Code
 
