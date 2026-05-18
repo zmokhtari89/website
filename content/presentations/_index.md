@@ -28,7 +28,7 @@ A complete list is on [Google Scholar](https://scholar.google.com/citations?user
 
 - **In-Progress Colloquium** — Art Laboratory Berlin (2023).
   Interdisciplinary colloquium on trail formation and collective motion, presented to an audience of artists, scientists, and the public.
-  [Event page](https://artlaboratory-berlin.org/research/in-progress-colloquium/).
+  [Event page](https://artlaboratory-berlin.org/events/colloquium-18/).
 
 - **APS March Meeting 2022** — Chicago.
   *Spontaneous trail formation in populations of auto-chemotactic walkers.*
