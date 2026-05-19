@@ -1,12 +1,12 @@
 +++
-title = "Presentations"
+title = "Selected Work & Honors"
 description = "Publications, talks, and recognition."
 template = "section.html"
 +++
 
 ## Publications
 
-A complete list is on [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID).
+Selected Publications (complete list on [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)).
 
 - **Z. Mokhtari**, R.I.A. Patterson, F. Höfling.
   *Spontaneous trail formation in populations of auto-chemotactic walkers.*
@@ -38,7 +38,7 @@ A complete list is on [Google Scholar](https://scholar.google.com/citations?user
   Contributed talk on signalling active matter and the hydrodynamic limit.
   [Abstract](https://www.dpg-verhandlungen.de/year/2024/conference/berlin/static/dy30.pdf#4).
 
-## Recognition
+## Awards
 
 - **Hanna Neumann Fellowship** (2024) — MATH+ Berlin Mathematics Research Center.
   Awarded to outstanding female mathematicians for postdoctoral research.
